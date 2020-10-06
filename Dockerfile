@@ -12,5 +12,5 @@ RUN git clone --depth 1 --branch ${WEBHINT_REVISION} https://github.com/webhinti
 WORKDIR /webhint
 
 RUN yarn
-RUN yarn build
+RUN yarn release
 
