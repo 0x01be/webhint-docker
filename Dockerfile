@@ -29,7 +29,7 @@ WORKDIR /home/webhint/
 
 ENV DISPLAY :99
 
-RUN echo "Xvfb ${DISPLAY} -dpi 100 -screen 0 1024x768x24 &" > ./init.sh 
+RUN echo "Xvfb ${DISPLAY} -dpi 100 -screen 0 1920x1080x24 &" > ./init.sh 
 
 ENV TARGET http://localhost:3000
 
